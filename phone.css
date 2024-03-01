@@ -1,0 +1,149 @@
+/* Navgation */
+#navbar {
+    flex-direction: column;
+    
+    
+}
+
+
+
+#navbar ul li a {
+
+    padding: 2px 2px;
+    margin: 2px;
+    font-size: 10px;
+}
+
+#logo img {
+    margin: 4px;
+    padding: 3px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#logo h6,
+h3 {
+    height: 20px;
+    margin-left: 4px;
+    color: #4ec20b;
+    font-family: 'Open Sans', sans-serif;
+    /* font-size:small; */
+
+}
+
+/* home */
+#home {
+
+    height: 203px;
+
+}
+
+#home::before {
+
+    height:250%;
+    
+}
+
+.btn {
+    padding: 8px;
+    margin: 18px;
+
+    width: 120px;
+}
+
+.heading-pri {
+
+    font-size: 3rem;
+
+}
+
+
+
+.heading-sec {
+
+    font-size: 1.3rem;
+
+}
+
+.heading-normal {
+    font-size: 0.9rem;
+}
+
+
+/* aboutus */
+#aboutus {
+    flex-direction: column;
+}
+
+#cardcontainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card-box {
+    margin: 15px;
+}
+
+.card-content h1 {
+
+    font-size: 1.5rem;
+}
+
+/* body{
+    background-color: aqua;
+} */
+/*ourstory  */
+#ourstory {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px
+}
+
+/* #story {
+
+
+    flex-direction: column;
+    /* width: 18rem; */
+    /* margin: 0px; */
+    /* margin-right: 33px; */
+    /* padding: 0px; */
+
+
+ 
+
+.interior {
+    /* align-items: center; */
+    margin-left: 0px;
+}
+
+.interior img {
+    margin-top: 0px;
+    /* margin-right: 101px; */
+    height: 26rem;
+    width: 20rem;
+}
+
+/* menu */
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    /* width:fit-content; */
+    /* height: max-content; */
+
+}
+
+#Menucontainer {
+    flex-direction: column;
+}
+
+/* clients */
+#vendor {
+    overflow: hidden;
+}
+
+/* reservation */
